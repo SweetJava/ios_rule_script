@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2024-11-19 02:16:49
+desc: 最后更新时间 2024-12-12 02:17:35
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 705
-# mitm: 740
+# reject: 707
+# mitm: 745
 # force-http-engine-hosts: 6
-# total: 1490
+# total: 1497
 
 
 
@@ -274,6 +274,7 @@ http:
     - ^https?:\/\/api\.yizhibo\.com\/common\/api\/(api_)?pz$ - reject
     - ^https?:\/\/api\.yonghuivip\.com\/web\/shensuan\/ad\/getAd - reject
     - ^https?:\/\/api\.ys7\.com.*\/getAdvertising - reject
+    - ^https?:\/\/api\.zcool\.com\.cn\/.*common\/open-screen - reject
     - ^https?:\/\/api\.zhihu\.com\/(notifications\/v\d\/count) - reject
     - ^https?:\/\/api\.zhihu\.com\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config - reject
     - ^https?:\/\/api\.zhihu\.com\/ad-style-service\/request - reject
@@ -308,6 +309,7 @@ http:
     - ^https?:\/\/app\.c\.nf\.migu\.cn\/.*column\/start(-)?up-pic - reject
     - ^https?:\/\/app\.ddpai\.com\/d\/api\/v\d\/config\/get\/bootscreen - reject
     - ^https?:\/\/app\.dewu\.com\/api\/v\d\/app\/advertisement\/ - reject
+    - ^https?:\/\/app\.duxiaoman\.com\/walletapp\/misc\/app_startup - reject
     - ^https?:\/\/app\.flymodem\.com\.cn\/Appapi\/Public\/welecome - reject
     - ^https?:\/\/app\.hbooker\.com\/setting\/get_startpage_url_list - reject
     - ^https?:\/\/app\.homeinns\.com\/api\/landing - reject
@@ -932,6 +934,7 @@ http:
 
   mitm:
     - "*.58cdn.com.cn"
+    - "*.5eplay.com"
     - "*.ahhhhfs.com"
     - "*.anythinktech.com"
     - "*.bdstatic.com"
@@ -1021,6 +1024,7 @@ http:
     - "apapia-sqk.manmanbuy.com"
     - "api*.futunn.com"
     - "api*.musical.ly"
+    - "api-access.pangolin-sdk-toutiao1.com"
     - "api-ad-product.huxiu.com"
     - "api-fouth-mem.huazhu.com"
     - "api-marketing.zhinengxiyifang.cn"
@@ -1072,6 +1076,7 @@ http:
     - "api.kuaidihelp.com"
     - "api.kurobbs.com"
     - "api.laifeng.com"
+    - "api.livelab.com.cn"
     - "api.m.jd.com"
     - "api.m.mi.com"
     - "api.maoyan.com"
@@ -1113,6 +1118,7 @@ http:
     - "api.yizhibo.com"
     - "api.yonghuivip.com"
     - "api.ys7.com"
+    - "api.zcool.com.cn"
     - "api.zhihu.com"
     - "api.zhuishushenqi.com"
     - "api1.34580.com"
@@ -1142,6 +1148,7 @@ http:
     - "app.c.nf.migu.cn"
     - "app.ddpai.com"
     - "app.dewu.com"
+    - "app.duxiaoman.com"
     - "app.flymodem.com.cn"
     - "app.hbooker.com"
     - "app.homeinns.com"
@@ -1454,6 +1461,7 @@ http:
     - "peisongapi.meituan.com"
     - "pic*.ajkimg.com"
     - "pic.edaijia.cn"
+    - "pinggai*.caixin.com"
     - "pipi.4kya.com"
     - "plt.yorentown.com"
     - "portal-xunyou.qingcdn.com"
@@ -1594,7 +1602,6 @@ http:
     - "www.ediuschina.com"
     - "www.firefox.com.cn"
     - "www.flstudiochina.com"
-    - "www.flyert.com"
     - "www.flyertea.com"
     - "www.folxchina.cn"
     - "www.formysql.com"
